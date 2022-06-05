@@ -1,0 +1,15 @@
+.rocket3{
+    display: none;
+}
+
+.rocket2{
+    display: none;
+}
+
+.rocket1{
+    width: 250px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    animation: rocket1 4s linear infinite;
+}

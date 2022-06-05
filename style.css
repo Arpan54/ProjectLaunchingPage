@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    opacity: 0.95;
+}
+
+.logo{
+    width: 120px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.content{
+    top: 42%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.content h1 span{
+    color: #ff3753;
+}
+
+.content button{
+    background: transparent;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 150px;
+}
+.launch-time div p{
+    font-size: 80px;
+    margin-bottom: -14px;
+}
+.launch-time div span{
+    font-size: 30px;
+    margin-bottom: -16px;
+}
+#minutes,#seconds{
+    color: #ff3753;
+}
+
+
+.rocket1{
+    width: 250px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    animation: rocket1 4s linear infinite;
+}
+@keyframes rocket1 {
+    0%{
+        bottom: 0;
+        opacity: 0.3;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+.rocket2{
+    width: 250px;
+    position: absolute;
+    right: 8.9%;
+    bottom: 650px;
+    animation: rocket2 5s linear infinite;
+}
+@keyframes rocket2 {
+    0%{
+        bottom: 620px;
+        opacity: 0.7;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+
+.rocket3{
+    width: 250px;
+    position: absolute;
+    right: 29%;
+    bottom: 500px;
+    animation: rocket3 3s linear infinite;
+}
+@keyframes rocket3 {
+    0%{
+        bottom: 490px;
+        opacity: 0.7;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
